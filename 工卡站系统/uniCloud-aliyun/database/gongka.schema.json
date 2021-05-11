@@ -1,0 +1,30 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		    "维修等级": {"bsonType": "string"},
+		    "机号": {"bsonType": "string"},
+		    "安排日期": {"bsonType": "string"},
+		    "工单号": {"bsonType": "string"},
+		    "顺序号": {"bsonType": "string"},
+		    "工卡号": {"bsonType": "string"},
+		    "工单描述": {"bsonType": "string"},
+		    "包号": {"bsonType": "string"},
+		    "组别": {"bsonType": "string"},
+		    "负责人": {"bsonType": "string"},
+		    "状态": {"bsonType": "string"},
+			"领出时间": {"bsonType": "string"},
+			"中断时间": {"bsonType": "string"},
+			"完工时间": {"bsonType": "string"},
+			"领出组": {"bsonType": "string"}
+	}
+}
